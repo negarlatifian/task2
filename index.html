@@ -323,10 +323,6 @@
           .set("#headline", { y: 5 })
           .to("#line_top, #line_bottom", 0.5, { width: line2Width })
           .to("#headline", 0.3, { opacity: 1, y: 0 })
-          .to("#preHeadline, #headline, .line, #cta", 0.5, {
-            opacity: 1,
-            delay: 5,
-          })
           .to("#headline", 0.5, { opacity: 0, y: 0, delay: 5 })
           .add(function () {
             headline.innerHTML = data.Admessage_3;
